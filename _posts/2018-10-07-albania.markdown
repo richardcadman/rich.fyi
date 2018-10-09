@@ -1,0 +1,70 @@
+---
+layout: post
+title:  "Albania"
+date:   2018-10-07 16:10:18 +0100
+categories: travel
+---
+
+`A guide to roadtripping Albania`
+
+![Albania](/assets/img/theth.jpg){:class="img-responsive"}
+
+### The Route
+- This took around 7 days, 4 doing the loop, 3 for Theth
+- We probably went a little fast, and drove a little far
+<iframe src="https://www.google.com/maps/d/embed?mid=1_QaZq8cU34Bvl-F7CDLCjKvsNdH4F26O" width="640" height="480"></iframe>
+
+#### Berat
+![Berat](/assets/img/albania/berat.jpg){:class="img-responsive"}
+- UNESCO World Heritage site that's been lived in by basically every empire (Romans, Byzantines, Ottomans, Slavs, etc)
+- Incredible mountain top hamlet, known as the "Town of a Thousand Windows", genuinely underhyped by all the things I'd read online before I went
+- Overgrown cobbles, quaint winding streets, weathered doors, vintage Mercedes, near silence, < 15 tourists, views over the valley
+- Had lunch on one of the cobbled streets, restaurant called "Temi", veggie moussaka, stuffed peppers with lots of paprika and thyme, lamb meatballs, fresh grapes and nectarine for dessert... costs about 7eur
+
+#### Gjirokaster
+![Gjirokaster](/assets/img/albania/gjirokastra.jpg){:class="img-responsive"}
+- Camping at Camping Gjirokaster, small place, on a windy valley.. decent restaurant called Shtepia with carafes of oaky homemade wine, roasted peppers with feta, spit lamb, village salad etc
+- Gjirokaster is another UNESCO World Heritage site, with a well-restored Ottoman bazaar
+- Nowhere sells food on a Sunday morning, but they do great espressos, with locals out for a natter
+- The castle is decent, there's notably an American jet from the cold war that's been lifted up there (most people were chatting about how silly they were for crashing into a castle, but it was actually just left behind at an airbase)
+- There's a cold war bunker you can visit, built under the reign of Enver Hoxha that connects by tunnel to the Socialist Headquarters.. just head to the tourist info for a guide
+- Traditional Odaja do a decent lunch - rice alls, stuffed peppers, moussaka (pattern here)
+- Drove onto the Blue Eye (sry i kalta) but it's way too touristy and you're not meant to swim in it (we had a dip further downstream; absolutely freezing)
+
+#### Butrint
+![Butrint](/assets/img/albania/butrintthree.jpg){:class="img-responsive"}
+- UNESCO World Heritage Site, on a small peninsula towards the Greek border on the southern tip of Albania
+- It's been lived in by everyone, from the Hellenics through Romans, Byzantines, Ottoman's etc
+- Interestingly, the cities infrastructure seemed to get progressively worse after the Romans (they had amphitheatres, long bridges connecting to the mainland, aquaducts etc)
+- We visited at sunset ~ 5pm, and had a couple of hours to roam with low tourist numbers and golden light
+- Camping at Ksamil Caravan Site, slightly weird in that it's all gravel, but they give you a matt to cushion yourself
+- We got the last of the sun walking around the head towards the main town of Ksamil.. they have weird attempt at greek colonnade lamposts that have mostly been destroyed, and vintage fairground rides; kind of a cross between Santorini and Skegness
+- Albania has a ton of pizza restaurants, we ate at Pizzeria Afrimi which was pretty good
+
+#### Riveria
+![Secret Beach](/assets/img/albania/secretbeach.jpg){:class="img-responsive"}
+- We found a secret beach (Gjiri i Filikurit) on Google that was incredible
+- Drive round to Potami Beach, park up, trot up the hill and scramble your way down the other side... if you go the wrong way it's pretty lethal so be careful and stick to the right
+- It's well worth the dodgy scramble, there was only one other couple there and about 200m away, the water is warm and aquamarine... the sun gets a bit intense but there are some caves to hide in
+- Bring lunch
+- We blasted up the coast after this, with a quick stop off at Vuno which is a quaint Mediterranean village
+- This road is smooth and takes up up over the wiggly Llogara National Park pass, with some outrageous views
+
+#### Stop Off
+![Onkum](/assets/img/albania/onkum.jpg){:class="img-responsive"}
+- We camped out at Camper Beach Onkum, super peaceful with a stunning sunset, but at this time of year there were no decent restaurant options (luckily we had some emergency pasta pesto)
+
+#### Theth
+![Theth](/assets/img/albania/theth.jpg){:class="img-responsive"}
+- Theth is both incredible and infuriating at the same time
+- I'd strongly recommend parking up at Shkoder and paying 20eur for a return jeep that'll take you the 3hr trip to Theth, over the mountain pass and down some atrocious road (you'd be mad to take a rental car down there)
+- You can buy a jeep ticket at the North Of Albania Travel & Hostel, they'll charge you 50eur/car if you wanna go immediately or 20eur return pp to get picked up at 7am
+- In the morning of travel, park up around [here](https://goo.gl/maps/3kgGNAhJRkM2) for a couple of euros per day
+- In Theth we camped out at [Zariklis](https://goo.gl/maps/vqwJ1VvL6d72) which cost us about 11eur pp in total for three nights (bargain), this place seemed a lot more peaceful than some of the ones on the main road.. facilities are pretty basic so be warned, the puppies are adorable (as long as you like waking up at 5am)
+- You can explore the Lock-In Tower (they'd literally lock murderers in here to defend them from a revenge killing) and the famous Church
+- Walk-wise, there's generally very poor signage and the tourist information are atrocious at giving good directions, so prepare a bit.. here's two options:
+- [Walk #1](https://www.wikiloc.com/hiking-trails/arapi-mountain-7187980): Mount Arapi, 21km and about 2.2km of height, the height and the scrambling terrain for the last few km is a bit of a killer... we actually set out to try and do a loop round the mountain but failed
+- [Walk #2](https://www.wikiloc.com/hiking-trails/trekking-teth-grunas-waterfall-and-blue-eye-27739075): Grunas Waterfall, Blue Eye and back along the road... 21km ish and a bit of a slog back, but the blue eye is wonderfully cold
+
+#### Back to Podgorica
+- Super low faff stay at TravelBreak hostel before the flight

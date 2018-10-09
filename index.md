@@ -19,13 +19,9 @@ I'm a Product Manager at Monzo; we're building a bank. Here's some stuff I've do
 - Manufacturing Engineering Student at [Cambridge University](http://www.ifm.eng.cam.ac.uk/education/met/).
 
 
-<!--
 ## Blog
 
-[All posts](/blog.html), [food](/food.html)
-{% for post in site.posts limit: 3 %}
-- `{{ post.date | date: "%Y-%m-%d" }}` - [{{ post.title }}]({{ post.url }}) {% endfor %}
--->
+[All posts](/blog.html), [food](/food.html), [travel](/travel.html)
 
 ## Stuff
 

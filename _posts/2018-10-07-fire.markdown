@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Resources on FIRE (financially independent, retire early)"
-date:   2018-10-07 15:10:18 +0100
+date:   2018-10-05 15:10:18 +0100
 categories: FIRE
 ---
 
@@ -14,6 +14,7 @@ categories: FIRE
 
 ### Calculators
 
-- [Stuffed butternut squash, with goats cheese](https://www.olivemagazine.com/recipes/vegetarian/roasted-butternut-squash-with-goats-cheese/)
+- [Chance of your retirement pot lasting til the end](https://www.firecalc.com/index.php), based on historical performance of the S&P500 from the last 200+ years.
+- [Chance of your retirement pot lasting til the end](https://docs.google.com/document/d/1dc0ohv6m8PiVPJl5zc47I-JFnD5fjnF7Q0c6pPHPEv4/edit), based on a Monte Carlo simulation (i.e. randomised market returns). This gets slated a bit as years aren't necessarily independent from each other.
 
 ### Known bloggers

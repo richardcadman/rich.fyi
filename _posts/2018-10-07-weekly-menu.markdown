@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Weekly Menus"
-date:   2018-10-07 15:10:18 +0100
+date:   2018-10-03 15:09:18 +0100
 categories: food
 ---
 
