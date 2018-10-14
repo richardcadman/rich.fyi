@@ -16,7 +16,7 @@
 title: Richard Cadman
 email: hi@rich.fyi
 description: >- # this means to ignore newlines until "baseurl:"
-  Product Manager at Monzo, formerly Product Manager and Head of Operations at Jukedeck, Operations Consultant at Newton Europe and Manufacturing Engineering student at University of Cambridge.
+  Product Manager at Monzo, Manufacturing Engineer from Cambridge Uni.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rich.fyi" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: richardcadman
