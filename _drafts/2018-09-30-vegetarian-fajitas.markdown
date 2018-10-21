@@ -2,7 +2,6 @@
 layout: post
 title:  "Vegetarian Fajitas"
 date:   2018-09-30 15:59:18 +0100
-source: 
 categories: food
 ---
 

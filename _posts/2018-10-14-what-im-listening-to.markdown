@@ -17,6 +17,9 @@ tl;dr, tends to be Jazz
 - [Jazz Classics Blue Note Playlist](spotify:user:spotify:playlist:37i9dQZF1DWTR4ZOXTfd9K), smooth as hell
 - [Alex Somers - Black Mirror Hang the DJ Soundtrack](spotify:album:2l1cg4CKpr6YzWnb9nESCB), great TV show, great anthemic ending
 - [Alex Somers - Captain Fantastic Soundtrack](spotify:album:5g2NoUFQCXUfaB8xWJEQI3), great film, great playlist for a rain day
+- [All of Alfa Mist's stuff](spotify:artist:2i1CPudyCUjL50Wqjv8AMI), particularly [Antiphon](spotify:album:3yvubzjqmhnZhVwp6qDXPq), [7th October Epilogue](spotify:album:7yIqcIfBI2iMDNTN9RAJZU), [Blacked Out](spotify:album:5KWeMYzDSclzFCDeOd1v7j)
+- [All of Barney Artist's stuff](spotify:artist:5iRM7qYip6UNfQaPe2reCz), particularly his [debut album](spotify:album:1GpJeoYxcez8hKdk6tforL) and [this with Tom Misch and Loyle Carner](spotify:album:5tbvov0fii1eMXkTYZmVdp)
+- New [1975](spotify:track:0D4yVl9Pn45xW2s63MFCmT) single
 
 #### September 2018
 

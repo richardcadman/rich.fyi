@@ -9,114 +9,79 @@ categories: general
 
 <br>
 
-## I'm building a bank at Monzo
+## Disclaimer, I'm building a bank at Monzo
 
 Full disclaimer, I'm a Product Manager at [Monzo](https://monzo.com/). Monzo's a UK challenger bank that lives on your smartphone.
 
-## Being in control of your money matters
+## I recently turned off my overdraft with Natwest
 
-Control matters a lot, particularly when it comes to money, so I'm always on the lookout for where we can improve this aspect of the banking experience.
+Control matters a lot, particularly when it comes to money, so I'm always on the lookout for where we can improve this part of the banking experience.
 
-I don't use my Natwest account as often as I used to, so I thought I'd remove my overdraft:
+I don't use my Natwest account as often as I used to, so I turned off my overdraft
 - For peace of mind
 - To avoid accidental charges (this later proved futile)
 - To learn some stuff
 
-**Read on for some learnings.**
+## It was an awful experience but I learnt some stuff
 
+I had a frustrating, shitty experience. But, in the process, I learnt some basic principles:
+1. **Minimise steps in the process, and avoid asking for unnecessary information**
+2. **Give people what they ask for (i.e. no overdraft charges if I've removed my overdraft)**
+3. **Get the basic technology right (instant, mobile first, single browser, error handling)**
 
-<br>
+Read on for more.
 
-___
-
-## Removing an overdraft with Natwest
-
-### :computer: 1. You'll need a computer, 10mins, and perseverance  
-
-![overdrafts](/assets/img/natwest/natwest_three_change.png){:class="img-responsive"}
-
-- I'm set up for mobile banking so I tried there first, unsuccessfully
-- I then logged in online and started my quest to remove my overdraft, first by clicking on 'overdrafts'
-- I'm taken to a pop up window, where the options are fairly clear, I want to _change an existing overdraft_
-- I'm taken to another page, where I click on _remove an overdraft_
-
-Things get a bit funnier now.
-
-### :bomb: 2. You can't actually guarantee you'll avoid charges
-
-![fees](/assets/img/natwest/natwest_five_unauth_fees.png){:class="img-responsive"}
-
-- I'm told that even if I remove my overdraft I can still go overdrawn
-- If I go overdrawn without an 'arranged overdraft' I'll actually get stung with loads of fees
-- I don't understand why Natwest will let me go overdrawn without an overdraft set up (unless it's an offline transaction, I don't see why this should happen)... nor why there are such large fees
-
-### :black_nib: 3. You'll need to apply for an overdraft again
-
-![overdrafts](/assets/img/natwest/natwest_five_process.png){:class="img-responsive"}
-
-- To remove the overdraft I'm told I need to 'apply for an overdraft again' (I don't want one)
-- This will be actioned _as soon as they can_
-
-### :bookmark_tabs: 4. You'll need a third browser window
-
-![overdrafts](/assets/img/natwest/natwest_six_small_popup.png){:class="img-responsive"}
-
-- Continuing on my mission, I now get a third popup window
-- This walks me through the process of _'opening an account'_ (reminder - I'm trying to remove an overdraft :information_desk_person:)
-- Thumbs up for accessibility though
-
-![overdrafts](/assets/img/natwest/natwest_eight_threesteps.png){:class="img-responsive"}
-- I trundle through three pages asking me to confirm info, including my last three addresses (why?)
-
-### :muscle: 5. You'll need resilience (after all that, it returns an error)
-
-![overdrafts](/assets/img/natwest/natwest_nine_error.png){:class="img-responsive"}
-- 10mins after starting my journey, my world ends
-
-
-### :hourglass_flowing_sand: 6. Removing an overdraft isn't instantaneous
-
-- I try again later and it works
-- I'm told my request will be actioned soon
-- I wonder why it's not instantaneous
-
-### :mailbox_with_no_mail: 7. The confirmation is a bit much
-
-![overdrafts](/assets/img/natwest/natwest_ten_confirmation_letter.png){:class="img-responsive"}
-
-- A day or so later I get an email that invites me to log back in and view the results of my overdraft application (tension is killing me)
-- I download a PDF, with seven full pages!
-- I check in my app whether the overdraft has been removed (not just yet)
-- I check back in a day later and it's done :tada:
 
 <br>
 
 ___
 ## Here's some learnings
 
-### :zap: 1. Make it in-app, and instant
+### :zap: 1. Make it in-app, in one place, and instant
 
-- No one wants to bank on a laptop anymore
-- No one wants to wait, if they feel like they shouldn't have to
+![overdrafts](/assets/img/natwest/natwest_six_small_popup.png){:class="img-responsive"}
 
-### :massage: 2. Make it simple, in one place
+- I'm set up for mobile banking so I tried there first, unsuccessfully
+- I have to open three browser windows in total - try to keep things in one place if you can
+- If you insist on opening something new, multiple tabs are better than multiple browsers
+- Ideally, removing my overdraft should be immediate too
 
-- If it can't be on mobile try to keep it all in one place if you can - avoid multiple tabs or windows
-- Try to avoid any unnecessary steps, is a form really needed to turn off a feature?
+### :massage: 2. Make it simple, and avoid unnecessary steps
+
+![overdrafts](/assets/img/natwest/natwest_five_process.png){:class="img-responsive"}
+
+- Don't make me fill out a form to _'apply for an overdraft'_ (I don't want one, I'm trying to remove an overdraft :information_desk_person:)
+- Tell me why you need information, or don't ask for it (three previous addresses :expressionless: ?)
+- Thumbs up for accessibility though
 
 ### :question: 3. Be specific, or explain why you can't be
 
-- Vague timelines are frustrating, so try to be specific when you can
+- Natwest tell me that my request be actioned _'as soon as they can'_
+- Vague timelines are really frustrating, so try to be specific when you can
 - If that's not possible, explain why it's the case
 
-### :no_good: 4. Actually give people what they ask for
+### :floppy_disk: 4. Use 'normal' communication methods   
 
-- I'm removing my overdraft because I want to eliminate the risk of going overdrawn, so ideally I won't be able to go into an 'unarranged overdraft'
-- If that's not possible -  I know that sometimes there's still a small chance an offline transaction (e.g. the Tube) might take you overdrawn - let me know why
-- Give people a chance, and make it easy for the user - if I've accidentally gone overdrawn, send me a notification and give me a chance to add money before charging
+![overdrafts](/assets/img/natwest/natwest_ten_confirmation_letter.png){:class="img-responsive"}
 
-### :no_entry: 5. Handle errors elegantly
+- Ideally I'd have got instant confirmation that my overdraft was removed
+- If a delay is unavoidable, just send me a quick text later saying it's all sorted :thumbsup:
+- Instead, a day or so after 'applying' I get an email that invites me to log back in and view the results of my overdraft application (tension is killing me)
+- Logging in takes a while, and then I have to download a PDF, with seven full pages, and trawl through for the result (_spoiler alert_: my overdraft is removed)
 
+### :no_good: 5. Actually give people what they ask for
+
+![fees](/assets/img/natwest/natwest_five_unauth_fees.png){:class="img-responsive"}
+
+- I'm told that even if I remove my overdraft I can still go overdrawn - even worse I'll actually get stung with loads of fees :scream:
+- I'm removing my overdraft because I want to eliminate the risk of going overdrawn, so ideally I wouldn't be able to go into an 'unarranged overdraft' - why does this have to happen?
+- If that's not possible -  I know that sometimes there's still a small chance an offline transaction (e.g. the Tube) might take you overdrawn - let me know why and at least give me a chance (send a notification and give me til the end of the day to add money before applying charges)
+
+### :no_entry: 6. Handle errors elegantly
+
+![overdrafts](/assets/img/natwest/natwest_nine_error.png){:class="img-responsive"}
+
+- 10mins after starting my overdraft journey, my world ends in an unexpected error
 - If something fails, let me know why
 - If you don't know exactly, give your best guess as to why... is it because it was a Sunday night? Was there maintenance?
 - Help me understand when to try again, to avoid me failing repeatedly... should I try again immediately, maybe later today, or should I wait til tomorrow?
