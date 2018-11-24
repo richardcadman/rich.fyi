@@ -9,6 +9,11 @@ categories: music
 
 tl;dr, tends to be Jazz
 
+#### November 2018
+
+- [My Nov 2018 Playlist](spotify:user:kingcadders:playlist:5n0YG0jrRmjxWqYKTNGGiZ)
+- [Noname - Room 25](spotify:album:7oHM3Sj0l2nXAzGAxW0KOt), still listening
+
 #### October 2018
 
 - [My Oct 2018 Playlist](spotify:user:kingcadders:playlist:5n0YG0jrRmjxWqYKTNGGiZ)
