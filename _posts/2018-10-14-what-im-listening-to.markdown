@@ -11,8 +11,13 @@ tl;dr, tends to be Jazz
 
 #### November 2018
 
-- [My Nov 2018 Playlist](spotify:user:kingcadders:playlist:5n0YG0jrRmjxWqYKTNGGiZ)
-- [Noname - Room 25](spotify:album:7oHM3Sj0l2nXAzGAxW0KOt), still listening
+- [My Nov 2018 Playlist](spotify:user:kingcadders:playlist:1MN1Vz26NTFTZafFJ5oR1I)
+- [Anderson .Paak - Oxnard](spotify:album:3rqqwtJE89WoWvMyPTvbZc), incredible album
+- [Classical Fix Playlist](spotify:user:rl0t0ut0zu27ouetrby7doect:playlist:4N19PpjoOnom1bq6QMaKBm), nice podcast
+- [Honne - Love Me / Love Me Not](spotify:album:0fwZXPXf41aF6H0CN3UtXV), sounds the same as their last album
+- [Michael Kiwanuka - Love & Hate](spotify:album:71kreixSBb0aUsk2gx0lcA), forgot how easy this is to listen to
+- [Lord of the Rings - Fellowship of the Ring](spotify:album:04rz93AqGy9JduzV3K81Dh), I mean, come on
+- [Vulfpeck - Darwin Derby](spotify:album:1ntmUvbS2ycBWoIWgmTVtx), bit much, but new Vulfpeck
 
 #### October 2018
 
