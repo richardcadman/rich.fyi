@@ -9,6 +9,16 @@ categories: music
 
 tl;dr, tends to be Jazz
 
+#### March 2019
+Been a while:
+- [My March 2019 Playlist](spotify:user:kingcadders:playlist:65VQ9BIBh8ktnbas5yIyIy)
+- [Jordan Rakei - Minds Eye](spotify:track:3UYKvI6JYzkp8eep9fcWT0), love Jordan
+- [Japanese House - Good at Falling](spotify:album:7qcAgj6CoV0VeRLo6ILiF2), The 1975 protege
+- [Snarky Puppy - Immigrance](spotify:album:6a1HtLhd3zNccXRNUZ23ge), so so good, also nuts live vid of some old stuff [here](https://www.youtube.com/watch?v=L_XJ_s5IsQc)
+- [Alfa Mist - Retainer](spotify:track:7juADD4wfjO6YhL433dQLC)
+- [Cory Wong - The Optimist](spotify:album:0A8cq3cjiMMP8lI1SeG4GN), fresh funk
+- [The Cinematic Orchestra - To Believe](spotify:album:3coLBjEk3wxbYrmIKVuSon), with Moses Sumney
+
 #### November 2018
 
 - [My Nov 2018 Playlist](spotify:user:kingcadders:playlist:1MN1Vz26NTFTZafFJ5oR1I)
