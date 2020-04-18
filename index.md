@@ -12,7 +12,7 @@ I'm a Product Manager at Monzo; we're building a bank. Here's some stuff I've do
 
 ## Work
 
-- Product Manager at [Monzo](http://www.monzo.com), formerly
+- Principal Product Manager at [Monzo](http://www.monzo.com), formerly
 - Product Manager at [Jukedeck](http://jukedeck.com/)
 - Head of Operations at [Jukedeck](http://jukedeck.com/)
 - Operations Consultant at [Newton Europe](https://www.newtoneurope.com/), and
@@ -21,7 +21,8 @@ I'm a Product Manager at Monzo; we're building a bank. Here's some stuff I've do
 
 ## Blog
 
-[All posts](/blog.html), [food](/food.html), [travel](/travel.html)
+[Blog](/blog.html)
+[Micro-blog](http://rcdmn.tumblr.com)
 
 ## Stuff
 
