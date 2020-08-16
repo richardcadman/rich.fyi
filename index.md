@@ -13,8 +13,7 @@ I'm a Product Manager at Monzo. Here's some stuff I've done.
 ## Work
 
 - Principal Product Manager at [Monzo](http://www.monzo.com), formerly
-- Product Manager at [Jukedeck](http://jukedeck.com/) (acq. TikTok)
-- Head of Operations at [Jukedeck](http://jukedeck.com/)
+- Product Manager & Head of Operations at [Jukedeck](http://jukedeck.com/) (acq. TikTok)
 - Operations Consultant at [Newton Europe](https://www.newtoneurope.com/), and
 - Manufacturing Engineering at [Cambridge University](http://www.ifm.eng.cam.ac.uk/education/met/).
 
