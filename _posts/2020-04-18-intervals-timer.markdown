@@ -7,7 +7,7 @@ categories: design
 
 `Interval timer: my first time using Figma`
 
-I consider myself decent at service design, and designing good user experiences. I consider myself very poor at UI. So I wanted to give it a quick blast this weekend using Figma (apparently the trendy option for designers these days).
+PMing means I do a fair bit of user interviews, user journey mapping, and wire framing. But I consider myself very poor at UI. I wanted to give it a quick 1hr blast this weekend using Figma for the first time (apparently the trendy option for designers these days).
 
 ![Timer](/assets/img/intervals/interval_timer.jpeg){:class="img-responsive"}
 
