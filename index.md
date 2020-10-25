@@ -8,23 +8,18 @@ title: Richard Cadman
 
 # Richard Cadman
 
-I'm a Product Manager at Monzo; we're building a bank. Here's some stuff I've done.
+I'm a Product Manager at Monzo. Here's some stuff I've done.
 
 ## Work
 
-- Product Manager at [Monzo](http://www.monzo.com), formerly
-- Product Manager at [Jukedeck](http://jukedeck.com/)
-- Head of Operations at [Jukedeck](http://jukedeck.com/)
+- Principal Product Manager at [Monzo](http://www.monzo.com), formerly
+- Product Manager & Head of Operations at [Jukedeck](http://jukedeck.com/) (acq. TikTok)
 - Operations Consultant at [Newton Europe](https://www.newtoneurope.com/), and
-- Manufacturing Engineering Student at [Cambridge University](http://www.ifm.eng.cam.ac.uk/education/met/).
+- Manufacturing Engineering at [Cambridge University](http://www.ifm.eng.cam.ac.uk/education/met/).
 
 
 ## Blog
 
-[All posts](/blog.html), [food](/food.html), [travel](/travel.html)
-
-## Stuff
-
-- Articles - on ["Lessons learned scaling Monzo's lending team"](https://www.mindtheproduct.com/2019/05/what-monzo-learned-from-scaling-its-lending-team/) (Mind the Product), ["Why we're lending at Monzo"](https://monzo.com/blog/2018/11/20/why-we-are-lending/) (Monzo), ["measuring the subjective"](https://medium.com/@richardcadman/measuring-the-subjective-improving-the-quality-of-ai-generated-music-as-a-pm-at-a-london-based-6b7c45d4f48d) (Medium), and ["operations at startups"](https://medium.com/@richardcadman/what-does-operations-mean-at-a-tech-startup-bb953d6a2802) (Medium)
-- Single-page webapps - ["optimistic weather"](https://safe-hollows-92431.herokuapp.com/) and ["should I cycle?"](https://richardcadman.github.io/bike_map.html)
-- Photography - [insta](https://www.instagram.com/richardcadman/), [portfolio](https://cadman.myportfolio.com/), strange [BuzzFeed article](https://www.buzzfeed.com/helenrussell/reasons-danes-do-sex-best?utm_term=.heqJe4nWG#.nclWBQDK0), South America [travel photoblog](http://cadmansa2015.tumblr.com/)
+- [Blog](/blog.html)
+- [Micro-blog](http://rcdmn.tumblr.com)
+- [Stuff](/stuff.html)
