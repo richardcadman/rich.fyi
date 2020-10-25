@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://unpkg.com/survey-jquery"></script>
+<link href="https://unpkg.com/survey-jquery/survey.min.css" type="text/css" rel="stylesheet"/>
+
+<!-- Webflow stuff -->
+<link href="https://uploads-ssl.webflow.com/5ec41c930673ae6623a3c901/css/luna-20495.webflow.99089cc56.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic%7CIBM+Plex+Mono:regular,600%7CPoppins:300,regular,500,600,700,800%7CPoppins:100,200,300,regular,500,600,700,700italic,800,800italic,900,900italic" media="all">
+
+<link href="https://raw.githubusercontent.com/richardcadman/rich.fyi/master/luna.css" rel="stylesheet" type="text/css">
+
+
+<!-- We remove the sv-main class from root below, which is apparently needed to make the hidden class work -->
+<style>
+
+.sv-hidden {
+  display: none !important;
+}
+
+.root {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  width: 100%;
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 30em) {
+    .root {
+        padding-left:2rem;
+        padding-right: 2rem;
+        border-top: 0px;
+    }
+}
+
+h4.title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+h4.sv_p_title {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 600;
+}
+
+h5 {
+  margin-top: 16px;
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+#sq_110_ariaTitle {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 600;
+}
+
+.form-control {
+  border: 2px solid #12263A;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 12px 20px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: Poppins;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.radio.sv-q-col-1 {
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.radio.sv-q-col-1:hover {
+  background-color: #FAFAFA;
+}
+
+.checked {
+  background-color: #FAFAFA;
+}
+
+.sv_qstn .radio label {
+  width: 100%;
+  margin-bottom: 0px;
+  transition: .3s ease all;
+  border-radius: 5px;
+}
+
+input[type='radio'], label{
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+}
+
+input[type='radio'] {
+    margin-right: 8px;
+}
+
+input[type='checkbox']:checked + label {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.button {
+  display: inline;
+}
+
+.button.button-large.bg-primary-4.btn.sv_prev_btn {
+  background-color: #ffffff;
+  border: 1px #12263a;
+  color: #12263A;
+  margin-bottom: 10px;
+}
+
+.panel-footer {
+  padding-top: 20px;
+}
+
+.sv_container {
+     border-radius: 0;
+     display: -webkit-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     flex-direction: column;
+     -webkit-box-flex: 1;
+     -webkit-flex-grow: 1;
+     -ms-flex-positive: 1;
+     flex-grow: 1;
+     margin-bottom: 0;
+     margin-left: auto;
+     margin-right: auto;
+     overflow: hidden;
+     position: relative;
+     width: 100%;
+ }
+
+@media screen and (min-width: 600px) {
+   .sv_container {
+       border-radius:16px;
+       width: 480px;
+       max-width: 600px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 0px;
+   }
+}
+
+.panel-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.panel-footer {
+    -webkit-align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    width: 100%;
+    margin: auto auto 0 auto;
+}
+
+@media screen and (min-width: 30em) {
+    .panel-footer {
+        padding-left:2rem;
+        padding-right: 2rem;
+        border-top: 0px;
+    }
+}
+
+.panel-footer { display: flex; flex-direction: column; }
+.sv_prev_btn { order: 3; }
+.sv_next_btn { order: 1; }
+.sv_complete_btn { order: 2; }
+
+.alert.alert-danger.sv_qstn_error_top {
+  margin-bottom: 20px;
+}
+
+</style>
+
+<title>Page Title</title>
+</head>
+<body>
+
+<div id="surveyContainer" class="survey-container"></div>
+
+<script>
+Survey.StylesManager.applyTheme("bootstrap");
+
+var myCss = {
+	root: "",
+	navigationButton: "button button-large bg-primary-4",
+  page: {
+    title: "title",
+    root: "root"
+  },
+};
+
+var surveyJSON = {
+ pages: [
+  {
+   name: "getting-started",
+   elements: [
+    {
+     type: "panel",
+     name: "panel-getting-started",
+     elements: [
+      {
+       type: "text",
+       name: "email",
+       title: "💌 What's your email address?",
+       hideNumber: true,
+       inputType: "email",
+       placeHolder: "team@joinluna.org"
+      },
+      {
+       type: "text",
+       name: "household_members_count",
+       title: "👨\u200d👩\u200d👧\u200d👦 How many people live in your house (including you)?",
+       hideNumber: true,
+       inputType: "number",
+       placeHolder: "# people"
+      },
+      {
+       type: "radiogroup",
+       name: "household_offset",
+       title: "🙋 Which carbon footprint do you want to offset?",
+       hideNumber: true,
+       choices: [
+        {
+         value: "own_only",
+         text: "Just your own"
+        },
+        {
+         value: "household",
+         text: "Your whole household"
+        }
+       ]
+      }
+     ],
+     title: "There are 5 sections, with a total of 12 quick questions about your lifestyle."
+    }
+   ],
+   title: "👋 Getting started"
+  },
+  {
+   name: "transport",
+   elements: [
+    {
+     type: "panel",
+     name: "panel-transport",
+     elements: [
+      {
+       type: "text",
+       name: "transport_car_or_taxi",
+       title: "🚙 Car or taxi",
+       hideNumber: true,
+       validators: [
+        {
+         type: "numeric"
+        }
+       ],
+       inputType: "number",
+       placeHolder: "hours / week"
+      },
+      {
+       type: "text",
+       name: "transport_train",
+       title: "🚂 Train",
+       hideNumber: true,
+       validators: [
+        {
+         type: "numeric"
+        }
+       ],
+       inputType: "number",
+       placeHolder: "hours / week"
+      },
+      {
+       type: "text",
+       name: "transport_tube_bus_or_tram",
+       title: "🚌 Tube, bus or tram",
+       hideNumber: true,
+       validators: [
+        {
+         type: "numeric"
+        }
+       ],
+       inputType: "number",
+       placeHolder: "hours / week"
+      },
+      {
+       type: "text",
+       name: "transport_motorbike_or_scooter",
+       title: "🏍 Motorbike or scooter",
+       hideNumber: true,
+       validators: [
+        {
+         type: "numeric"
+        }
+       ],
+       inputType: "number",
+       placeHolder: "hours / week"
+      }
+     ],
+     title: "How many hours a week do you use the following?"
+    }
+   ],
+   title: "🚎 Transport"
+  },
+  {
+   name: "travel",
+   elements: [
+    {
+     type: "panel",
+     name: "panel-travel",
+     elements: [
+      {
+       type: "text",
+       name: "travel_flights_under_four",
+       title: "✈️ Flights under 4 hours",
+       hideNumber: true,
+       inputType: "number",
+       placeHolder: "# flights / year"
+      },
+      {
+       type: "text",
+       name: "travel_flights_four_to_eight",
+       title: "🛩 Flights between 4 and 8 hours",
+       hideNumber: true,
+       inputType: "number",
+       placeHolder: "# flights / year"
+      },
+      {
+       type: "text",
+       name: "travel_flights_over_eight",
+       title: "🚀 Flights over 8 hours",
+       hideNumber: true,
+       inputType: "number",
+       placeHolder: "# flights / year"
+      }
+     ],
+     title: "How many flights have you taken in the last year?"
+    }
+   ],
+   title: "🌍 Travel "
+  },
+  {
+   name: "food",
+   elements: [
+    {
+     type: "panel",
+     name: "panel1"
+    },
+    {
+     type: "radiogroup",
+     name: "food_diet",
+     title: "Which of the following best describes your diet?",
+     hideNumber: true,
+     isRequired: true,
+     choices: [
+      {
+       value: "vegan",
+       text: "🥕 Vegan"
+      },
+      {
+       value: "vegetarian",
+       text: "🧀 Vegetarian"
+      },
+      {
+       value: "pescaterian",
+       text: "🐟 Pescaterian"
+      },
+      {
+       value: "meat_one_to_two",
+       text: "🐓 Meat 1 to 2 days a week"
+      },
+      {
+       value: "meat_three_to_four",
+       text: "🐑 Meat 3 to 4 days a week"
+      },
+      {
+       value: "meat_most",
+       text: "🐄 Meat most days"
+      }
+     ]
+    }
+   ],
+   title: "🍕 Food"
+  },
+  {
+   name: "energy",
+   elements: [
+    {
+     type: "panel",
+     name: "panel-house",
+     elements: [
+      {
+       type: "radiogroup",
+       name: "energy_gas_or_electricity",
+       title: "⛽️ Is your house heated with gas or electricity?",
+       hideNumber: true,
+       choices: [
+        {
+         value: "gas",
+         text: "Gas"
+        },
+        {
+         value: "electricity",
+         text: "Electricity"
+        }
+       ]
+      },
+      {
+       type: "radiogroup",
+       name: "energy_renewable",
+       title: "♻️ Do you use renewable electricity?",
+       hideNumber: true,
+       choices: [
+        {
+         value: "yes",
+         text: "Yes"
+        },
+        {
+         value: "no",
+         text: "No"
+        }
+       ]
+      },
+      {
+       type: "text",
+       name: "energy_bill",
+       title: "💰 How much is your total monthly energy bill?",
+       hideNumber: true,
+       inputType: "number",
+       placeHolder: "£ / month"
+      }
+     ],
+     title: "Tell us more about your home and energy usage."
+    }
+   ],
+   title: "🏡 House and energy "
+  },
+  {
+   name: "spending",
+   elements: [
+    {
+     type: "panel",
+     name: "panel-spending",
+     title: "Tell us about your spending habits."
+    },
+    {
+     type: "text",
+     name: "spending_typical_monthly",
+     title: "💳 How much money do you typically spend after rent, groceries and utility bills each month?",
+     hideNumber: true,
+     inputType: "number",
+     placeHolder: "£ / month"
+    },
+    {
+     type: "text",
+     name: "spending_one_offs_yearly",
+     title: "🖥 How much did you spend on big one-off items like electronics, furniture or appliances last year?",
+     hideNumber: true,
+     inputType: "number",
+     placeHolder: "£ / year"
+    }
+   ],
+   title: "🛍 Spending"
+  }
+ ]
+}
+
+
+
+
+function sendDataToServer(survey) {
+    //send Ajax request to your web server.
+		console.log(JSON.stringify(survey.data))
+		$.ajax({
+			url: "https://europe-west2-luna-287918.cloudfunctions.net/Footprint",
+			type: "POST",
+			crossDomain: true,
+			data: JSON.stringify(survey.data),
+			dataType: "json",
+			headers: {
+				"Access-Control-Allow-Origin":"*"
+			},
+			success: function(result){
+				console.log(result);
+		}});
+		//window.location.href = 'google.com';
+}
+
+var survey = new Survey.Model(surveyJSON);
+$("#surveyContainer").Survey({
+    model: survey,
+		css: myCss,
+		showProgressBar: 'off',
+
+		showPrevButton: true,
+		// goNextPageAutomatic: true,
+
+    showCompletedPage: false,
+    onComplete: sendDataToServer
+});
+</script>
+
+</body>
+</html>
